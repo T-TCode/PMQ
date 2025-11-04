@@ -1,0 +1,21 @@
+[2025-08-22 11:06:13.098] --- Log session started at 2025-08-22 11:06:13 ---
+[2025-08-22 11:06:13.261] Navigating to page: StartupPage
+[2025-08-22 11:06:14.381] Startup 'GO!' button clicked.
+[2025-08-22 11:06:14.382] Navigating to page: MainControlPage
+[2025-08-22 11:06:14.436] Slider 'Exterior Lights' changed to value: 3
+[2025-08-22 11:06:14.438] Slider 'Interior Lights' changed to value: 3
+[2025-08-22 11:06:14.438] Slider 'Foggers' changed to value: 1
+[2025-08-22 11:06:14.464] Top Ring page initialized.
+[2025-08-22 11:06:14.469] Middle Ring page initialized.
+[2025-08-22 11:06:14.474] Bottom Ring page initialized.
+[2025-08-22 11:06:14.479] Top Ring [Inside] page initialized.
+[2025-08-22 11:06:14.483] Middle Ring [Inside] page initialized.
+[2025-08-22 11:06:14.488] Bottom Ring [Inside] page initialized.
+[2025-08-22 11:06:14.493] Puck Lights page initialized.
+[2025-08-22 11:06:14.498] UFO Ring page initialized.
+[2025-08-22 11:06:14.501] UFO Beam page initialized.
+[2025-08-22 11:06:18.054] Toggled PA: ON
+[2025-08-22 11:06:18.349] Toggled Sound: ON
+[2025-08-22 11:06:18.699] Key Press: Key_Escape
+[2025-08-22 11:06:19.365] Application closing.
+[2025-08-22 11:06:19.365] --- Log session ended ---

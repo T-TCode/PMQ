@@ -1,0 +1,27 @@
+[2025-08-29 19:18:29.163] --- Log session started at 2025-08-29 19:18:29 ---
+[2025-08-29 19:18:29.394] Navigating to page: StartupPage
+[2025-08-29 19:18:29.828] Startup 'GO!' button clicked.
+[2025-08-29 19:18:29.829] Navigating to page: MainControlPage
+[2025-08-29 19:18:30.021] Slider 'Exterior Lights' changed to value: 3
+[2025-08-29 19:18:30.023] Slider 'Interior Lights' changed to value: 3
+[2025-08-29 19:18:30.024] Slider 'Foggers' changed to value: 0
+[2025-08-29 19:18:30.053] Top Ring page initialized.
+[2025-08-29 19:18:30.059] Middle Ring page initialized.
+[2025-08-29 19:18:30.065] Bottom Ring page initialized.
+[2025-08-29 19:18:30.070] Top Ring [Inside] page initialized.
+[2025-08-29 19:18:30.076] Middle Ring [Inside] page initialized.
+[2025-08-29 19:18:30.082] Bottom Ring [Inside] page initialized.
+[2025-08-29 19:18:30.087] Puck Lights page initialized.
+[2025-08-29 19:18:30.093] UFO Ring page initialized.
+[2025-08-29 19:18:30.096] UFO Beam page initialized.
+[2025-08-29 19:18:30.101] Ring Group 1 page initialized.
+[2025-08-29 19:18:30.107] Ring Group 2 page initialized.
+[2025-08-29 19:18:31.220] Button clicked: Lights
+[2025-08-29 19:18:31.220] Navigating to page: LightsPage
+[2025-08-29 19:18:32.293] Navigating to page: MainControlPage
+[2025-08-29 19:18:33.034] Button clicked: Lights
+[2025-08-29 19:18:33.034] Navigating to page: LightsPage
+[2025-08-29 19:18:36.071] Key Press: Key_Meta
+[2025-08-29 19:18:37.724] Key Press: Key_Alt
+[2025-08-29 19:19:03.392] Application closing.
+[2025-08-29 19:19:03.392] --- Log session ended ---

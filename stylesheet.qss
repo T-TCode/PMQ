@@ -1,0 +1,249 @@
+/* --- MODIFIED: Added a default font-size to all QWidgets --- */
+QWidget#MainBackground,
+QDialog#AbductionDialog,
+QDialog#RoamingDialog { background: qlineargradient(x1:1, y1:1, x2:0, y2:0, stop:0 #010101, stop:0.5 #333333, stop:1 #010101); color: #E0E0E0; font-size: 20px; }
+
+/* --- NEW: A global style for all text entry fields --- */
+QLineEdit {
+    font-size: 20px; /* Makes the text inside the field larger */
+    max-width: 600px;  /* Stops the field from stretching too wide */
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2E2E2E;
+    color: #E0E0E0;
+}
+
+/* --- MODIFIED: Added font-size to base QLabel --- */
+QLabel { background-color: transparent; color: #E0E0E0; font-family: Arial; font-size: 20px; }
+
+QLabel#LabelStyle { font-size: 20px; font-weight: bold; padding: 0px; border: none !important; }
+QLabel#HeaderStyle { font-size: 50px; font-weight: bold; padding: 10px; border: none; }
+QLabel#GroupStyle { font-size: 30px; font-weight: bold; border: none; padding: 0px; }
+QLabel#StartupLabel { font-size: 48px; font-weight: bold; color: #FFFFFF; background-color: transparent; }
+QPushButton#StartupButton { font-size: 36px; font-weight: bold; color: #FFFFFF; background-color: #148CE8; border: 3px solid #0A6BB0; border-radius: 15px; padding: 20px 60px; min-width: 200px; }
+QPushButton#StartupButton:hover { background-color: #1A92F7; border-color: #0D7DD0; }
+QPushButton#StartupButton:pressed { background-color: #0F7DD0; border-color: #074B80; }
+QProgressBar#DisableProgressBar { border: 2px solid #148CE8; border-radius: 5px; background-color: #333333; text-align: center; color: #FFFFFF; font-weight: bold; font-size: 10px; }
+QProgressBar#DisableProgressBar::chunk { background-color: #4CAF50; border-radius: px; }
+QPushButton { background-color: transparent; color: #FFFFFF; font-family: Arial; font-weight: bold; padding: 20px 10px; border: 5px solid #FFFFFF; }
+QPushButton:hover { background-color: rgba(51, 51, 51, 0.5); }
+QPushButton:pressed { background-color: rgba(0, 0, 0, 0.5); }
+QPushButton:disabled { background-color: rgba(85, 85, 85, 0.5); color: #B0B0B0; border: 5px solid #888888; }
+QPushButton#StopButton { background-color: #CC0202; color: #FFFFFF; border-color: #CC0202; font-size: 20px; padding: 20px 10px; border-radius: 10px; min-width: 150px; max-width: 150px; min-height: 50px; max-height: 50px; }
+QPushButton#StopButton:hover { background-color: rgba(204, 2, 2, 0.5); }
+QPushButton#StopButton:pressed { background-color: rgba(160, 0, 0, 0.5); }
+QPushButton#BackButton { font-weight: bold; background-color: transparent; font-size: 40px; padding: 20px 10px;  min-width: 150px; max-width: 150px; min-height: 50px; max-height: 50px; border: none;}
+QPushButton#BackButton:hover { background-color: rgba(51, 51, 51, 0.5); }
+QPushButton#BackButton:pressed { background-color: rgba(0, 0, 0, 0.5); }
+QPushButton#ReconnectButton { background-color: transparent; font-size: 20px; padding: 20px 10px; border-radius: 10px; border: 2px solid #148CE8; color: #FFFFFF; min-width: 180px; max-width: 180px; min-height: 70px; max-height: 70px; }
+QPushButton#ReconnectButton:hover { background-color: rgba(20, 140, 232, 0.5); }
+QPushButton#ReconnectButton:pressed { background-color: rgba(10, 70, 116, 0.8); }
+QPushButton#SoundButton { background-color: transparent; font-size: 30px; padding: 20px 10px; border-radius: 10px; min-width: 225px; max-width: 225px; min-height: 150px; max-height: 150px;}
+QPushButton#SoundButton:hover { background-color: rgba(51, 51, 51, 0.5); }
+QPushButton#SoundButton:pressed { background-color: rgba(0, 0, 0, 0.5); }
+QPushButton#ToggleButton { font-size: 30px; padding: 10px; border-style: solid; border-width: 5px; border-radius: 10px; }
+QPushButton#ToggleButton[toggled="false"] { background-color: #CC0202; border-color: #CC0202; }
+QPushButton#ToggleButton[toggled="true"] { background-color: #148CE8; border-color: #148CE8; }
+QPushButton#ToggleButton[toggled="false"]:hover { background-color: rgba(217, 2, 2, 0.5); }
+QPushButton#ToggleButton[toggled="true"]:hover { background-color: rgba(20, 140, 232, 0.7); }
+QPushButton#ToggleButton[toggled="true"]:pressed { background-color: rgba(10, 70, 116, 0.8); }
+QPushButton#SharedButton { 
+    font-size: 30px;
+padding: 10px; 
+    background-color: transparent;
+border-color: #148CE8; 
+    border-radius: 10px;
+}
+QPushButton#SharedButton:hover { background-color: rgba(58, 122, 217, 0.5); }
+QPushButton#SharedButton:pressed { background-color: rgba(42, 106, 192, 0.5); }
+QPushButton#ControlButton { font-size: 30px;
+padding: 20px 10px; background-color: transparent; border-radius: 10px; }
+QPushButton#ControlButton:hover { background-color: rgba(192, 64, 64, 0.5); }
+QPushButton#ControlButton:pressed { background-color: rgba(128, 32, 32, 0.5); }
+QPushButton#LightsButton { font-size: 24px; background-color: transparent; border: 3px solid #FFFFFF; color: #FFFFFF; border-radius: 10px; min-width: 250px; max-width: 250px; min-height: 100px; max-height: 100px; }
+QPushButton#LightsButton:hover { background-color: rgba(51, 51, 51, 0.5); border-color: #ADD8E6; }
+QPushButton#LightsButton:pressed { background-color: rgba(0, 0, 0, 0.5); border-color: #FFFFFF; }
+QPushButton#SaveButton:hover { background-color: rgba(51, 51, 51, 0.5); border-color: #ADD8E6; }
+QPushButton#SaveButton:pressed { background-color: rgba(0, 0, 0, 0.5); border-color: #FFFFFF; }
+QPushButton#LEDButton { font-size: 24px; padding: 15px 10px; background-color: transparent; border: 3px solid #FFFFFF; color: #FFFFFF; border-radius: 10px; min-width: 450px; max-width: 450px; min-height: 200px; max-height: 200px; }
+QPushButton#LEDButton:hover { background-color: rgba(51, 51, 51, 0.5); border-color: #ADD8E6; }
+QPushButton#LEDButton:pressed { background-color: rgba(0, 0, 0, 0.5); border-color: #FFFFFF; }
+QPushButton#LightButton { font-size: 24px; padding: 15px 10px; background-color: transparent; border: 3px solid #FFFFFF; color: #FFFFFF; border-radius: 10px; min-width: 300px; max-width: 300px; min-height: 125px; max-height: 125px; }
+QPushButton#LightButton:hover { background-color: rgba(51, 51, 51, 0.5); border-color: #ADD8E6; }
+QPushButton#LightButton:pressed { background-color: rgba(0, 0, 0, 0.5); border-color: #FFFFFF; }
+QFrame#SliderSeparator, QFrame#VLineSeparator { background-color: #888888; min-width: 1px; max-width: 1px; min-height: 1px; }
+QFrame#TopButtonFrame, QFrame#SliderFrame, QFrame#BottomRightButtonFrame, QFrame#TopFrame, QFrame#LabelFrame, QFrame#ButtonFrame { background-color: transparent;
+border: none; }
+QPushButton#ArrowButton { background-color: transparent; color: #FFFFFF; font-size: 80px; font-weight: bold; border: none; padding: 20px;
+}
+QPushButton#ArrowButton:hover { background-color: rgba(85, 85, 85, 0.3); }
+QPushButton#ArrowButton:pressed { background-color: rgba(0, 0, 0, 0.5); }
+QPushButton#StackedButton {
+    font-size: 20px;
+}
+QProgressBar::chunk {
+    background-color: #52E538;
+}
+
+/* --- STYLES for the Outside Lights Grid --- */
+QFrame#OutsideGridContainer {
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+}
+QFrame#OutsideGridContainer QPushButton {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+}
+QFrame#OutsideGridContainer QPushButton:hover {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+/* Remove unnecessary borders on the grid edges */
+QFrame#OutsideGridContainer QPushButton[class~="last-column"] {
+    border-right: none;
+}
+QFrame#OutsideGridContainer QPushButton[class~="last-row"] {
+    border-bottom: none;
+}
+
+QPushButton#DummyButton {
+    font-size: 24px; padding: 15px 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 300px;
+    height: 125px;
+    border: none;
+}
+QPushButton#ArmenianButton {
+    font-size: 24px; padding: 15px 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 300px;
+    height: 125px;
+    border-image: url("%%RESOURCE_PATH%%/images/armenianFlag.png") 0 0 0 0 stretch stretch;
+    border-left: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+}
+/* --- STYLES FOR SCENEBUTTON (Used by Inside Lights) --- */
+/* Base style for all SceneButtons */
+QPushButton#SceneButton {
+    font-size: 24px; padding: 15px 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 300px;
+    height: 125px;
+    border-left: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+}
+/* Hover effect for ALL SceneButtons */
+QPushButton#SceneButton:hover {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+QPushButton#SceneButton:pressed {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* A single button in a column */
+QPushButton#SceneButton[position="single"] {
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+}
+/* The top button in a stack */
+QPushButton#SceneButton[position="top"] {
+    border-top: 2px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/* A middle button in a stack */
+QPushButton#SceneButton[position="middle"] {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    border-radius: 0px;
+}
+/* The bottom button in a stack */
+QPushButton#SceneButton[position="bottom"] {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 2px solid #E0E0E0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+/* Add this new block to your stylesheet.qss file */
+QPushButton#StopButtonCircular {
+    background-color: #CC0202;
+    color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    
+    font-size: 40px; /* Example size */
+    font-weight: bold;
+    border-radius: 125px; /* Half of your button's size (250px) */
+}
+
+QPushButton#StopButtonCircular:hover {
+    background-color: rgba(204, 2, 2, 0.8);
+}
+
+QPushButton#StopButtonCircular:pressed {
+    background-color: rgba(160, 0, 0, 0.8);
+}
+
+/* Style for the Scenes button when disabled */
+QFrame#ScenesButton[disabled="true"] {
+    background-color: rgba(85, 85, 85, 0.5); /* Semi-transparent gray */
+}
+
+QFrame#mister_controls_group_frame QLabel {
+    border: none;
+}
+QScrollArea#ContentScrollArea, QWidget#ScrollAreaContent {
+    background: transparent;
+}
+QPushButton#LightsOnlyButton {
+    background-color: transparent;
+    border: 2px solid #E0E0E0;      /* Sets a 2px border on all sides */
+    border-top-left-radius: 0px;   /* Keep top-left corner sharp */
+    border-top-right-radius: 0px;  /* Keep top-right corner sharp */
+    border-bottom-left-radius: 8px;  /* Round the bottom-left corner */
+    border-bottom-right-radius: 8px; /* Round the bottom-right corner */
+}
+QPushButton#LightsOnlyButton:checked {
+    background-color: #3059d9;
+    border: 2px solid #E0E0E0;      /* Sets a 2px border on all sides */
+    border-top-left-radius: 0px;   /* Keep top-left corner sharp */
+    border-top-right-radius: 0px;  /* Keep top-right corner sharp */
+    border-bottom-left-radius: 8px;  /* Round the bottom-left corner */
+    border-bottom-right-radius: 8px; /* Round the bottom-right corner */
+}
+/* --- Style for the Mic Toggle Button in Dialogs --- */
+QPushButton#HeaderToggleButton {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E0E0E0;
+    background-color: transparent;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 5px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+QPushButton#HeaderToggleButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+QPushButton#HeaderToggleButton:checked {
+    background-color: #3059d9;
+    color: #FFFFFF;
+}
